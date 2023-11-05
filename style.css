@@ -47,6 +47,13 @@ main img {
   width: 100%;
 }
 
+.item img{
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+}
+
 .item-double {
   flex: 2;
 }
@@ -69,7 +76,7 @@ header nav ul li {
   flex: 1;
   margin: 10px;
   justify-content: center;
-  display: inline;
+  display: flex;
   list-style-type: none;
 }
 
