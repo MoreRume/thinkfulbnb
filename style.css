@@ -36,6 +36,16 @@ main img {
 
 /* ---  Groups & Items --- */
 
+.row{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.row img {
+  width: 100%;
+  margin-right: 10px;
+}
 .group {
   display: flex;
   flex-direction: column;
