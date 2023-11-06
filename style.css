@@ -38,6 +38,7 @@ main img {
 
 .row{
   display: flex;
+  flex: 1;
   gap: 10px;
   align-items: center;
 }
@@ -219,4 +220,11 @@ img{
   }
 
 
+}
+
+@media all and (max-width: 768px) {
+  .row{
+    flex: 1;
+    flex-direction: column;
+  }
 }
