@@ -180,6 +180,11 @@ img{
     font-size: 90%;
   }
 
+  #about>div{
+    flex: 1;
+    flex-direction: row;
+  }
+
   .row{
     display: flex;
     gap: 10px;
